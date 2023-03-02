@@ -4,6 +4,7 @@ from flask_cors import CORS
 import requests
 import re
 import ast
+import pandas as pd
 
 def gpt3(input):
     response = requests.post(
